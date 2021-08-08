@@ -164,6 +164,7 @@ while (bootScreenPause == 1) {
         SysCall_OK = 0
         bootScreenPause = 0
         loadMenu()
+        music.playMelody("G G G G G G G G ", 120)
     }
 }
 basic.showLeds(`
